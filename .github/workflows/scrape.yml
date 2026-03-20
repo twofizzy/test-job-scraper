@@ -1,0 +1,33 @@
+name: Scrape UAL Jobs
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 feedgen
+
+      - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scrape.py
+
+      - name: Commit updated feed and seen jobs
+        run: |
+          git config user.email "bot@example.com"
+          git config user.name "Bot"
+          git add ual_jobs.xml seen_jobs.json
+          git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No changes"
+          git push
