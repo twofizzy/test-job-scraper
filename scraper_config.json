@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "name": "UAL",
+      "enabled": true,
+      "url": "https://jobs.arts.ac.uk/vacancies/",
+      "type": "scrape",
+      "keywords": [],
+      "location": "",
+      "salary_min": null,
+      "salary_max": null,
+      "job_type": ""
+    },
+    {
+      "name": "Reed",
+      "enabled": false,
+      "url": "https://www.reed.co.uk/jobs",
+      "type": "api",
+      "keywords": [],
+      "location": "",
+      "salary_min": null,
+      "salary_max": null,
+      "job_type": ""
+    },
+    {
+      "name": "Indeed",
+      "enabled": false,
+      "url": "https://www.indeed.co.uk/jobs",
+      "type": "scrape",
+      "keywords": [],
+      "location": "",
+      "salary_min": null,
+      "salary_max": null,
+      "job_type": ""
+    },
+    {
+      "name": "CV Library",
+      "enabled": false,
+      "url": "https://www.cv-library.co.uk/search-jobs",
+      "type": "scrape",
+      "keywords": [],
+      "location": "",
+      "salary_min": null,
+      "salary_max": null,
+      "job_type": ""
+    },
+    {
+      "name": "Guardian",
+      "enabled": false,
+      "url": "https://jobs.theguardian.com",
+      "type": "scrape",
+      "keywords": [],
+      "location": "",
+      "salary_min": null,
+      "salary_max": null,
+      "job_type": ""
+    }
+  ]
+}
