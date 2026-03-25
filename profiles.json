@@ -1,0 +1,227 @@
+{
+  "profiles": [
+    {
+      "id": "creative-freelancer",
+      "name": "Creative Freelancer",
+      "description": "Designers, illustrators, art directors seeking contract or freelance work",
+      "boards": [
+        "remotive",
+        "jobicy",
+        "weworkremotely",
+        "reed"
+      ],
+      "keywords": [
+        "freelance",
+        "contract",
+        "designer",
+        "art director",
+        "illustrator",
+        "brand",
+        "creative"
+      ],
+      "filters": {
+        "location": "remote",
+        "employment_type": "contract",
+        "salary_min": null,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "developer",
+      "name": "Developer / Tech",
+      "description": "Frontend, backend, fullstack engineers",
+      "boards": [
+        "himalayas",
+        "remotive",
+        "weworkremotely",
+        "jobicy",
+        "reed",
+        "adzuna",
+        "arbeitnow"
+      ],
+      "keywords": [
+        "developer",
+        "engineer",
+        "frontend",
+        "backend",
+        "fullstack",
+        "react",
+        "python",
+        "typescript"
+      ],
+      "filters": {
+        "location": "remote",
+        "employment_type": "full-time",
+        "salary_min": 40000,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "arts-culture",
+      "name": "Arts & Culture Worker",
+      "description": "Gallery, museum, heritage, arts administration roles",
+      "boards": [
+        "ual",
+        "higheredjobs",
+        "reed",
+        "adzuna"
+      ],
+      "keywords": [
+        "curator",
+        "gallery",
+        "museum",
+        "arts admin",
+        "heritage",
+        "cultural",
+        "arts officer"
+      ],
+      "filters": {
+        "location": "london",
+        "employment_type": null,
+        "salary_min": null,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "film-tv",
+      "name": "Film & TV Production",
+      "description": "Crew, production assistants, coordinators, editors",
+      "boards": [
+        "entertainmentcareers",
+        "reed",
+        "adzuna"
+      ],
+      "keywords": [
+        "production",
+        "film",
+        "TV",
+        "editor",
+        "coordinator",
+        "runner",
+        "crew",
+        "director"
+      ],
+      "filters": {
+        "location": "london",
+        "employment_type": null,
+        "salary_min": null,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion Industry",
+      "description": "Fashion designers, buyers, merchandisers, stylists",
+      "boards": [
+        "reed",
+        "adzuna",
+        "remotive"
+      ],
+      "keywords": [
+        "fashion",
+        "buyer",
+        "merchandiser",
+        "stylist",
+        "garment",
+        "textile",
+        "LCF",
+        "apparel"
+      ],
+      "filters": {
+        "location": "london",
+        "employment_type": null,
+        "salary_min": 25000,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "graduate",
+      "name": "Graduate / First Job",
+      "description": "Entry-level roles for those finishing uni or recently graduated",
+      "boards": [
+        "reed",
+        "adzuna",
+        "arbeitnow",
+        "himalayas",
+        "higheredjobs"
+      ],
+      "keywords": [
+        "graduate",
+        "entry level",
+        "junior",
+        "assistant",
+        "trainee",
+        "intern",
+        "scheme",
+        "apprentice"
+      ],
+      "filters": {
+        "location": null,
+        "employment_type": null,
+        "salary_min": 20000,
+        "salary_max": null,
+        "closing_within_days": 30
+      },
+      "digest_frequency": "daily"
+    },
+    {
+      "id": "education",
+      "name": "Education / Academia",
+      "description": "Teachers, lecturers, learning & development, EdTech",
+      "boards": [
+        "higheredjobs",
+        "reed",
+        "adzuna",
+        "arbeitnow"
+      ],
+      "keywords": [
+        "lecturer",
+        "teacher",
+        "tutor",
+        "learning",
+        "education",
+        "EdTech",
+        "curriculum",
+        "academic"
+      ],
+      "filters": {
+        "location": null,
+        "employment_type": "full-time",
+        "salary_min": null,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "weekly"
+    },
+    {
+      "id": "remote",
+      "name": "Remote Worker",
+      "description": "Remote-first roles across any sector",
+      "boards": [
+        "himalayas",
+        "remotive",
+        "weworkremotely",
+        "jobicy"
+      ],
+      "keywords": [],
+      "filters": {
+        "location": "remote",
+        "employment_type": null,
+        "salary_min": null,
+        "salary_max": null,
+        "closing_within_days": null
+      },
+      "digest_frequency": "daily"
+    }
+  ]
+}
